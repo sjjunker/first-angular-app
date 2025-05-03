@@ -4,7 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: false,
-  styleUrl: './app.component.css',
+  //styleUrl: './app.component.css',
+  styles: [
+    `
+      h1 {
+        color: blue;
+      }
+    `,
+  ],
 })
 export class AppComponent {
   name = 'Sandi';
